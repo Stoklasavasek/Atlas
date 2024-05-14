@@ -68,7 +68,6 @@ a.show-details-link {
 }
 
 .card{
-    background-color: var(--tmavsi);
     color: rgb(14, 9, 9);
     text-align: center;
 }
@@ -90,6 +89,5 @@ a{
 
 .form-group select, .form-group select:focus{
     width: 300px;
-    background-color: var(--tmavsi);
     color: rgb(51, 42, 42);
 }
