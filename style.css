@@ -1,0 +1,95 @@
+header{
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer{
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.flag-image {
+    width: 200px;
+    height: 133px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(158, 154, 154);
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button {
+    background-color: rgb(128, 128, 128);
+    color: rgb(126, 81, 81);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #2c3e50;
+}
+a.show-details-link {
+    color: transparent; 
+    text-decoration: none; 
+}
+.show-details-link {
+    display: none;
+}
+
+.card{
+    background-color: var(--tmavsi);
+    color: rgb(14, 9, 9);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: rgb(10, 7, 7);
+    margin-bottom: 60px;
+}
+
+.form-group select, .form-group select:focus{
+    width: 300px;
+    background-color: var(--tmavsi);
+    color: rgb(51, 42, 42);
+}
